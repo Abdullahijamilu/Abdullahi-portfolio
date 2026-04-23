@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Abdullahi Jamilu Portfolio
 
-# Run and deploy your AI Studio app
+A modern, responsive bento-grid style personal portfolio for Abdullahi Jamilu, an Aspiring Full Stack Developer focused on efficient web applications and AI agents.
 
-This contains everything you need to run your app locally.
+## Built With
+- **React 19**
+- **Vite**
+- **Tailwind CSS 4**
+- **Motion (Framer Motion)**
+- **Lucide React**
 
-View your app in AI Studio: https://ai.studio/apps/00f6d05d-3e1a-4f03-9d6c-a6ff2f19e2e6
+## Features
+- **Bento Grid Layout**: A clean, modern aesthetic for showcasing skills and projects.
+- **Dynamic Filtering**: Filter projects by tech stack (C#, ASP.NET, Node.js, etc.).
+- **Live Search**: Integrated search bar for finding specific projects.
+- **Fully Responsive**: Optimized for all device sizes.
+- **Dark Mode Aesthetic**: Deep zinc and sky-blue theme.
 
-## Run Locally
+## Deployment
+This project is configured for easy deployment on **Netlify** via the included `netlify.toml`.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Repository
+[https://github.com/Abdullahijamilu/Abdullahi-portfolio](https://github.com/Abdullahijamilu/Abdullahi-portfolio)

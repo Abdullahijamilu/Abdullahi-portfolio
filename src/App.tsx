@@ -123,6 +123,30 @@ export default function App() {
 
   const projects = [
     {
+      title: "Motion-s",
+      description: "Animation-focused library for creating complex gestural transitions and motion effects in React.",
+      tech: ["React", "Framer Motion", "JavaScript"],
+      github: "https://github.com/Abdullahijamilu/Motion-s"
+    },
+    {
+      title: "Marketmind",
+      description: "Market analysis platform using real-time data processing and sentiment analysis to track trends and performance.",
+      tech: ["Node.js", "APIs", "Data Analysis"],
+      github: "https://github.com/Abdullahijamilu/Marketmind"
+    },
+    {
+      title: "JA-Deep",
+      description: "Deep Learning implementation focusing on neural network architectures for complex pattern recognition.",
+      tech: ["Python", "AI", "Deep Learning"],
+      github: "https://github.com/Abdullahijamilu/JA-Deep"
+    },
+    {
+      title: "prediction-crop",
+      description: "ML-based agricultural tool for predicting crop yield and Identifying growth risks based on environmental data.",
+      tech: ["Machine Learning", "Python", "Data Science"],
+      github: "https://github.com/Abdullahijamilu/prediction-crop"
+    },
+    {
       title: "Student Result System",
       description: "Automated student records management and grade calculations for educational institutions.",
       tech: ["C#", "ASP.NET Core", "SQL Server"],
@@ -171,8 +195,8 @@ export default function App() {
               <h1 className="text-5xl md:text-7xl font-black text-white tracking-tighter leading-none mb-4">
                 Abdullahi <br/> <span className="text-sky-500">Jamilu</span>
               </h1>
-              <p className="text-zinc-400 font-medium max-w-sm">
-                Building real-world solutions with code and creativity. Specializing in backend development.
+              <p className="text-zinc-400 font-medium max-w-sm mt-4">
+                Focused on building efficient web applications and exploring the future of AI agents and autonomous systems.
               </p>
             </div>
             <div className="flex gap-4 mt-8">
@@ -197,12 +221,12 @@ export default function App() {
           <div className="bento-card md:col-span-1 md:row-span-1 flex flex-col justify-between border-sky-500/20">
              <div>
                <div className="inline-block px-2 py-0.5 bg-sky-500 text-black text-[10px] font-black uppercase rounded mb-4">Currently Building</div>
-               <h3 className="text-white font-bold mb-2">Buyers Raffle System</h3>
-               <p className="text-xs text-zinc-500">Automated, real-time winner selection platform using Node.js logic.</p>
+               <h3 className="text-white font-bold mb-2">AI Agent Framework</h3>
+               <p className="text-xs text-zinc-500">Autonomous workflow automation utilizing LLMs and intelligent scaling.</p>
              </div>
              <div className="flex items-center gap-2 mt-4">
                 <div className="w-2 h-2 bg-sky-500 rounded-full animate-pulse" />
-                <span className="text-[10px] font-mono text-zinc-500 lowercase">active development</span>
+                <span className="text-[10px] font-mono text-zinc-500 lowercase">Scaling agents</span>
              </div>
           </div>
 
@@ -218,19 +242,19 @@ export default function App() {
 
           {/* Skills Section */}
           <div id="skills" className="bento-card md:col-span-1 md:row-span-2 flex flex-col">
-            <div className="text-[10px] font-bold text-sky-500 uppercase tracking-[0.2em] mb-6">Technical Tools</div>
-            <div className="flex flex-wrap gap-2 mb-8">
-              {["C#", "ASP.NET", "SQL", "JWT", "MVC", "Node.js", "Git", "API Design"].map(skill => (
-                <span key={skill} className="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-zinc-400">
-                  {skill}
-                </span>
-              ))}
-            </div>
-            <div className="mt-auto">
-              <p className="text-xs text-zinc-500 leading-relaxed italic">
-                Focus on structured architecture and automation logic.
-              </p>
-            </div>
+             <div className="text-[10px] font-bold text-sky-500 uppercase tracking-[0.2em] mb-6">Technical Tools</div>
+             <div className="flex flex-wrap gap-2 mb-8">
+               {["AI Agents", "Python", "C#", "ASP.NET", "Node.js", "SQL", "Deep Learning", "Git"].map(skill => (
+                 <span key={skill} className="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-mono text-zinc-400">
+                   {skill}
+                 </span>
+               ))}
+             </div>
+             <div className="mt-auto">
+               <p className="text-xs text-zinc-500 leading-relaxed italic">
+                 Exploring the intersection of AI and scalable web architecture.
+               </p>
+             </div>
           </div>
 
           {/* Projects Section */}
@@ -322,6 +346,7 @@ export default function App() {
           <span className="text-xs font-bold tracking-tighter text-white">ABDULLAHI <span className="text-sky-500">JAMILU</span></span>
         </div>
         <div className="flex gap-6 items-center text-[10px] uppercase font-bold tracking-widest">
+          <a href="https://github.com/Abdullahijamilu/Abdullahi-portfolio" className="hover:text-white border-b border-transparent hover:border-white">View Source</a>
           <a href="https://github.com/Abdullahijamilu" className="hover:text-white">GitHub</a>
           <a href="https://www.linkedin.com/in/abdul-onimisi-809031374" className="hover:text-white">LinkedIn</a>
           <a href="mailto:abdullahionimis@gmail.com" className="hover:text-white">Mail</a>
